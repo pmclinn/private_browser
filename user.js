@@ -15,3 +15,9 @@ user_pref("browser.formfill.enable", false);
 
 // DISABLE SESSION RESTORE
 user_pref("browser.sessionstore.resume_from_crash", false);
+
+// SET DOWNLOADS TO /downloads MOUNT
+user_pref("browser.download.folderList", 2);
+user_pref("browser.download.dir", "/downloads");
+user_pref("browser.download.useDownloadDir", true);
+user_pref("browser.download.lastDir", "/downloads");
