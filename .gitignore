@@ -1,3 +1,4 @@
 # Ignore sandbox state directories
 firefox-config/
 firefox-downloads/
+browser.md
