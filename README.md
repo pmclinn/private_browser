@@ -153,7 +153,9 @@ That’s it. You’ll get a noVNC web page with a Firefox window running inside 
 - Treat downloads as untrusted until inspected/scanned
 - For very risky sites, consider a disposable Windows user account or an additional VM layer on top of this container
 
-## License / Image Credits
+## Credits & Licenses
 
-- This setup uses the LinuxServer.io Firefox image: `lscr.io/linuxserver/firefox:latest`
-- Review that image’s documentation and license on the LinuxServer site if needed
+- LinuxServer.io Firefox image: lscr.io/linuxserver/firefox — docs and licenses: https://docs.linuxserver.io/images/docker-firefox/
+- Mozilla Firefox: Mozilla Public License 2.0; Firefox and the Firefox logo are Mozilla trademarks. See https://www.mozilla.org/en-US/MPL/ and https://www.mozilla.org/foundation/trademarks/policy/
+- Docker Desktop: subject to Docker’s terms. See https://www.docker.com/legal/docker-subscription-service-agreement/
+- This project is not affiliated with Mozilla or LinuxServer.io.
