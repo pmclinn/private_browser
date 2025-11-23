@@ -1,0 +1,3 @@
+@echo off
+echo [INFO] Opening sandbox browser at http://localhost:3000 ...
+start "" "http://localhost:3000"
