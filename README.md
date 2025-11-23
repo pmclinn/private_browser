@@ -4,12 +4,14 @@ A small, shareable setup for running Firefox inside a Linux Docker container on 
 
 ## Why Use This
 
-- Run Firefox in a container, not on your Windows desktop
-- Only two folders are exposed to the container: a profile folder and a downloads folder
-- No privileged container; `no-new-privileges` is enabled
-- Defaults to private browsing (no history, no disk cache, session-only cookies)
+- Safer place to open risky links and attachments
+- Keeps websites away from your Windows files and apps
+- Nothing from a site gets installed on your PC
+- Your bookmarks and add-ons still save inside the sandbox
+- Private by default: no history, no saved logins or cache after you close it
+- Easy to use: start/stop with a couple of double‑clicks
 
-This is about isolating web pages from your PC’s filesystem and apps, not about anonymity.
+This protects your PC from websites; it does not make you anonymous on the internet.
 
 ## Requirements
 
